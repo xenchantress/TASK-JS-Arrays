@@ -81,12 +81,3 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 function youGottaCalmDown(shout) {
   // Your code here
 }
-
-module.exports = {
-  isArrayLengthOdd,
-  isArrayLengthEven,
-  addLailaToArray,
-  eliminateTeam,
-  secondHalfOfArrayIfItIsEven,
-  youGottaCalmDown,
-};
