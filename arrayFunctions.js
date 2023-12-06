@@ -8,9 +8,34 @@
  * isArrayLengthOdd([1, 2, 3]) -> true
  * isArrayLengthOdd([1, 2, 3, 4]) -> flase
  */
+
 function isArrayLengthOdd(numbers) {
-  // Your code here
+  if (numbers.length % 2 == 0) {
+    return false;
+  } else {
+    return true;
+  }
 }
+console.log(isArrayLengthOdd([1, 2, 3]));
+
+// const numbers = [];
+// const odds = [];
+// for (const num of numbers) {
+//   if (num % 2 === 1) {
+//     odds.push(num);
+//   }
+// }
+// console.log(odds); // [19, 5, 9, 13]
+// }
+// const arr = [1];
+// arr.console.log(isArrayLengthOdd([1, 2, 3]));
+// console.log(isArrayLengthOdd([1, 2, 3, 4]));
+//const numbers = [1, 2, 3];
+//if (numbers.length % 2 == 0) {
+//} else {
+//}
+
+// Your code here
 
 /**
  * isArrayLengthEven(numbers):
@@ -23,8 +48,14 @@ function isArrayLengthOdd(numbers) {
  * isArrayLengthEven([1, 2, 3, 4]) -> true
  */
 function isArrayLengthEven(numbers) {
-  // Your code here
+  if (numbers.length % 2 == 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
+console.log(isArrayLengthEven([1, 2, 3]));
+// Your code here
 
 /**
  * addLailaToArray(instructors):
@@ -36,7 +67,13 @@ function isArrayLengthEven(numbers) {
  */
 function addLailaToArray(instructors) {
   // Your code here
+  let Instructors = ["Hasan", "Mshary"];
+  {
+    Instructors.push("Laila");
+    return Instructors;
+  }
 }
+console.for(Instructors);
 
 /**
  * eliminateTeam(teams):
@@ -46,10 +83,14 @@ function addLailaToArray(instructors) {
  * e.g.
  * eliminateTeam(["Brazil", "Germany", "Italy"]) -> "Italy"
  */
-function eliminateTeam(teams) {
-  // Your code here
+function eliminateTeam(xCountries) {
+  xCountries.pop();
 }
-
+let xCountries = ["Brazil", "Germany", "Italy"];
+{
+  let country = xCountries.slice(2, 3);
+}
+console.log(country);
 /**
  * secondHalfOfArrayIfItIsEven(fruits):
  * - receives array `fruits`
@@ -61,6 +102,13 @@ function eliminateTeam(teams) {
  * secondHalfOfArrayIfItIsEven(["apple", "orange", "banana", "kiwi", "blueberry"]) -> []
  */
 function secondHalfOfArrayIfItIsEven(fruits) {
+  if (fruits.length % 2 == 0) {
+    {
+      return fruits.slice(fruits.length / 2);
+    }
+  } else {
+    return [];
+  }
   // Your code here
 }
 
@@ -78,6 +126,15 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  * - Use number method .indexOf()
  * - Use string method .slice()
  */
+
+const username = "Hi!!!!!!!!!!";
+const firstEx = username.indexOf("!");
+console.log(username.slice(0, firstEx + 1));
+
+// console.log(username.slice(0, firstEx + 1));
+// return shout.slice(0, index + 1);
+// Your code here
 function youGottaCalmDown(shout) {
-  // Your code here
-}
+  const index = shout.indexOf("!");
+  return shout.slice(0, index + 1);
+} console.log()
