@@ -26,11 +26,38 @@ function fillButton(index, text) {
    */
   function clickButton(index) {
     console.log(`Button number ${index} is clicked`);
+   
+
+
     // Your main code here.
-  }
-  
+  }if (isWinner()) {
+    alert(`${currentPlayer} wins!`);
   /**
    * (Optional) It's always a good idea to make a function for every single purpose.
    */
   // function checkWinner
   // function restartGame
+
+
+//-------------------------------------------------------------------------
+
+        function changeColors(element, symbol) {
+            if (symbol === 'X') {
+              element.style.color ='';
+            } else if (symbol === 'O') {
+              element.style.color = '#e74c3c'; 
+            }
+          }
+          //----------------------------------------------------------------
+
+          if (checkWinConditions()) {
+            alert(`${currentPlayer} wins!`)};
+
+            //---------------------------------------------------------------
+
+            if (checkWinConditions()) {
+                alert(`${currentPlayer} wins!`);
+                resetGame();
+              } else if (isBoardFull()) {
+                alert("It's a draw!")};
+                resetGame();
