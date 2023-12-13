@@ -96,13 +96,42 @@
 
 // console.log(total);
 //0000000000000000000000000000000000000000000000
-const package = {
-    color: "red",
-    order:0,
-    findeFishingSpot(){
-        console.log("Gooo JNOOOOB");
-    },
-};
-package.findeFishingSpot();
-console.log()
+// const package = {
+//     color: "red",
+//     order:0,
+//     findeFishingSpot(){
+//         console.log("Gooo JNOOOOB");
+//     },
+// };
+// package.findeFishingSpot();
+// console.log()
+//000000000000000000000000000000000000000000000000000000000000
+
+// const people = [" Salem","Sara","Salman"];
+// //console.log(people.find( x => x == "Salem"));
+// const test = people.find( (x) => x == "Khaled");
+
+// if (test){
+//     console.log('here');
+// } else {
+//     console.log('there');
+// }
+
+// const people = [ 
+//     {name: "Salem",
+//     age:19,},
+    
+//     { name: "Sara",
+// age: 22,
+// }
+// ];
+// const test = people.find((x) => x.name == "Sara");
+
+// if (test){
+//     console.log("here");
+//     } else {
+//         console.log("there");
+//     }
+    
+
 
